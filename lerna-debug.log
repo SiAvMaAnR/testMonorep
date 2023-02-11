@@ -1,0 +1,20 @@
+0 silly argv { _: [ 'clean' ], lernaVersion: '6.4.1', '$0': 'lerna' }
+1 notice cli v6.4.1
+2 verbose rootPath /home/ivan/Desktop/Projects/lernaAndYarnWorkspace
+3 info Removing the following directories:
+4 info clean packages/_mainRepository/node_modules
+4 info clean packages/firstRepository/node_modules
+4 info clean packages/secondRepository/node_modules
+4 info clean packages/thirdRepository/node_modules
+5 info clean removing /home/ivan/Desktop/Projects/lernaAndYarnWorkspace/packages/_mainRepository/node_modules
+6 silly rimrafDir /home/ivan/Desktop/Projects/lernaAndYarnWorkspace/packages/_mainRepository/node_modules
+7 info clean removing /home/ivan/Desktop/Projects/lernaAndYarnWorkspace/packages/firstRepository/node_modules
+8 silly rimrafDir /home/ivan/Desktop/Projects/lernaAndYarnWorkspace/packages/firstRepository/node_modules
+9 info clean removing /home/ivan/Desktop/Projects/lernaAndYarnWorkspace/packages/secondRepository/node_modules
+10 silly rimrafDir /home/ivan/Desktop/Projects/lernaAndYarnWorkspace/packages/secondRepository/node_modules
+11 info clean removing /home/ivan/Desktop/Projects/lernaAndYarnWorkspace/packages/thirdRepository/node_modules
+12 silly rimrafDir /home/ivan/Desktop/Projects/lernaAndYarnWorkspace/packages/thirdRepository/node_modules
+13 error Error: Command failed with exit code 1: /home/ivan/.nvm/versions/node/v18.7.0/bin/node /home/ivan/Desktop/Projects/lernaAndYarnWorkspace/node_modules/rimraf/bin.js --no-glob /home/ivan/Desktop/Projects/lernaAndYarnWorkspace/packages/secondRepository/node_modules/
+13 error     at makeError (/home/ivan/Desktop/Projects/lernaAndYarnWorkspace/node_modules/execa/lib/error.js:60:11)
+13 error     at handlePromise (/home/ivan/Desktop/Projects/lernaAndYarnWorkspace/node_modules/execa/index.js:118:26)
+13 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

@@ -1,0 +1,22 @@
+{
+  "name": "@monorepo/main-repository",
+  "version": "0.1.4",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rm -rf lib && tsc"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@monorepo/first-repository": "^0.1.4",
+    "@monorepo/second-repository": "^0.1.4",
+    "@monorepo/third-repository": "^0.1.4"
+  },
+  "gitHead": "78e65caf5111443ec3afe79b9c5b514357f67ce7"
+}
