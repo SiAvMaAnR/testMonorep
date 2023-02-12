@@ -1,4 +1,4 @@
-import { secondRepository } from "@monorepo/second-repository"
+import { secondRepository } from "@monorepo-sup/second-repository"
 
 
 export function firstRepository() {

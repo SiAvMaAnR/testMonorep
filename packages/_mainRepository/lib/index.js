@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.thirdRepository = exports.secondRepository = exports.firstRepository = exports.mainRepository = void 0;
-const first_repository_1 = require("@monorepo/first-repository");
+const first_repository_1 = require("@monorepo-sup/first-repository");
 Object.defineProperty(exports, "firstRepository", { enumerable: true, get: function () { return first_repository_1.firstRepository; } });
-const second_repository_1 = require("@monorepo/second-repository");
+const second_repository_1 = require("@monorepo-sup/second-repository");
 Object.defineProperty(exports, "secondRepository", { enumerable: true, get: function () { return second_repository_1.secondRepository; } });
-const third_repository_1 = require("@monorepo/third-repository");
+const third_repository_1 = require("@monorepo-sup/third-repository");
 Object.defineProperty(exports, "thirdRepository", { enumerable: true, get: function () { return third_repository_1.thirdRepository; } });
 function mainRepository() {
     console.log("main repository");

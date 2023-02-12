@@ -1,6 +1,6 @@
-import { firstRepository } from "@monorepo/first-repository"
-import { secondRepository } from "@monorepo/second-repository"
-import { thirdRepository } from "@monorepo/third-repository"
+import { firstRepository } from "@monorepo-sup/first-repository"
+import { secondRepository } from "@monorepo-sup/second-repository"
+import { thirdRepository } from "@monorepo-sup/third-repository"
 
 function mainRepository(): void {
     console.log("main repository")
