@@ -1,6 +1,6 @@
 {
   "name": "@monorepo/third-repository",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -14,5 +14,5 @@
   "devDependencies": {
     "typescript": "^4.9.5"
   },
-  "gitHead": "e762d11f32e67883f527683e77d0fa70658400c6"
+  "gitHead": "80857cccb0bcfc7157a9f330818195e5d92969f4"
 }
